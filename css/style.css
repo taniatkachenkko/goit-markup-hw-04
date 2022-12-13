@@ -491,15 +491,13 @@ ul {
     display: flex;
     text-align: center;
     background-color: var(--color-back-team);
-    padding-left: auto;
-    padding-right: auto;
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--color-background)
     
 }
 .footer{
-    padding: auto;
+   
     background-color: var(--color-section);
     color: var(--color-background);
 }
