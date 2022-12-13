@@ -188,9 +188,16 @@ ul {
 
 .hero-section {
     padding: 200px 0;
-    
+    background-image: 
+    url(../images/bcg/img.bcg.jpg);
+   
+    background-repeat:no-repeat ;
+    background-position: 50% 50%;
+    background-size: cover;
     text-align: center;
-    background-color: var(--color-section);
+    
+    
+
    
 }
 
@@ -237,7 +244,26 @@ ul {
     display: block;
     
 }
+
+
+
+.list::before{
+    display: block;
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    background-position: center;
+    background-color: var(--color-back-team);
+
+}
     
+
+
+
+
+
+
 .main-button{
     background-color: var(--color-third);
     color: var(--color-background);
@@ -248,8 +274,12 @@ ul {
     border: none;
     border-radius: 4px;
     letter-spacing: 0.03em;
-    
 
+
+}
+.main-button:hover{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .main-logo{
@@ -282,6 +312,11 @@ ul {
     
     
 }
+.buttons:hover{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+}
 .buttons-title{
     display: flex;
     justify-content: center;
@@ -312,13 +347,15 @@ ul {
 
 .pictures-item{
     flex-basis: calc((100% - 60px) /3);
-    
-    
     background-color: var(--color-background);
     align-items: center;
   
 }
-
+.pictures-item:hover {
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+ 0px 4px 4px rgba(0, 0, 0, 0.06),
+ 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .pictures-title{
     max-width: 100%;
     height: auto;
@@ -341,9 +378,10 @@ ul {
     font-size: 14px;
     letter-spacing: 0.03em;
     padding-bottom: 10px;
+    padding-top: 30px;
 }
 
-.heading_subtitle {
+.heading-subtitle {
     color: var(--color-secondary);
     font-size: 14px;
     line-height: 1.71;
@@ -358,6 +396,7 @@ ul {
     font-size: 36px;
     letter-spacing: 0.03em;
     padding-bottom: 50px;
+    padding-top: 94px;
 }
 .head-subtitle{
     color: var(--color-primary);
@@ -381,6 +420,11 @@ ul {
     width: 270px;
 }
 
+
+.team-names{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .img-title{
     justify-content: center;
     display: flex;
@@ -441,11 +485,23 @@ ul {
 
 }
 
+.clients{
+    align-items: baseline;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background-color: var(--color-back-team);
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--color-background)
+    
+}
 .footer{
-    padding: 60px 0;
+    padding: auto;
     background-color: var(--color-section);
     color: var(--color-background);
-   
 }
 
 
