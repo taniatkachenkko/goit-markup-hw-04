@@ -9,6 +9,7 @@
     --color-logo:#000000;
     --color-pictures-bcg: #EEEEEE;
     --color-back-team: #F5F4FA;
+    --color-back:#AFB1B8;
 }
 
 body{
@@ -258,6 +259,15 @@ ul {
 
 }
     
+.section details-section .item::before{
+    content: '';
+    display: block;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-color: var(--color-back-team);
+    background-position: center;
+
+}
 
 
 
@@ -524,6 +534,12 @@ ul {
     margin-bottom: 28px;
 }
 
+.adress-icons{
+    fill: var(--color-background);
+    color: var(--color-back);
+    border-radius: 50%;
+    border: none;
+}
       
 .link-adress{
     color: var(--color-background);
