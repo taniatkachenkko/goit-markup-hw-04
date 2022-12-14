@@ -498,6 +498,10 @@ ul {
     background-color: var(--color-background)
     
 }
+.clients-item{
+    display: flex;
+    justify-content: center;
+}
 .footer{
    
     background-color: var(--color-section);
