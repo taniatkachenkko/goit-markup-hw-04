@@ -269,7 +269,12 @@ ul {
 
 }
 
-
+.clients-item .clients-icons::before{
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
 
