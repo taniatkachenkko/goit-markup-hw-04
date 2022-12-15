@@ -507,7 +507,6 @@ ul {
 
 .elements{
     padding: 20px 24px;
-   
   
 
 }
@@ -578,6 +577,15 @@ ul {
     
     
 
+}
+.list-icons{
+    display: inline;
+    background-size: 66px;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
 }
 
 .adress-icons{
