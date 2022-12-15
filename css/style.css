@@ -173,6 +173,11 @@ ul {
     
 }
 
+.adress:hover{
+    cursor: pointer;
+    fill: var(--color-third);
+
+}
 .hero-title {
     max-width: 690px;
     margin: 0 auto 30px;
@@ -277,13 +282,21 @@ ul {
     background-position: center;
 }
 
+.clients-item{
+    cursor: pointer;
+
+}
+.clients-item:hover{
+    color: var(--color-third);
+}
 .clients-icons{
+   
+    justify-content: center;
     color: var(--color-back);
+    gap: 30px;
 }
 
-.clients-icons:hover{
-    color: var(--color-button);
-}
+
 .main-button{
     background-color: var(--color-third);
     color: var(--color-background);
@@ -514,18 +527,25 @@ ul {
 .clients{
     align-items: baseline;
     justify-content: center;
-    
+
     text-align: center;
     background-color: var(--color-back-team);
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--color-background)
+    background-color: var(--color-background);
+    
     
 }
+
 .clients-item{
-    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline;
     justify-content: center;
+    text-align: center;
 }
+
+
 .footer{
    
     background-color: var(--color-section);
@@ -547,12 +567,28 @@ ul {
     font-size: 26px;
     margin-bottom: 28px;
 }
+.link-container{
+    display: inline;
+    background-size: 20px;
+    width: 44px;
+    height: 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    object-fit: contain;
+    
+    
+
+}
 
 .adress-icons{
     fill: var(--color-background);
-    color: var(--color-back);
-    border-radius: 50%;
+    color: var(--color-back); 
     border: none;
+    fill-opacity: 60%;
+   
+
+  
 }
       
 .link-adress{
