@@ -159,13 +159,17 @@ ul {
     color: var(--color-secondary);
     text-decoration-line: none;
     list-style-type: none;
-    color: var(--color-third);
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 
 
 }
 .subhero-link-mail:hover{
     text-decoration: underline;
+    color: var(--color-third);
 }
 
 .subhero-link-mail:focus {
@@ -174,7 +178,10 @@ ul {
 
 
 .subhero-link-tel:hover {
-    text-decoration: underline;}
+    text-decoration: underline;
+    color: var(--color-third);
+}
+    
 
 .subhero-link-tel:focus {
 text-decoration: underline;
@@ -188,9 +195,17 @@ text-decoration: underline;
     list-style-type: none;
     color: var(--color-secondary);
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     
 }
 
+
+.adress{
+    fill: currentColor;
+}
 .adress:hover{
     cursor: pointer;
     fill: var(--color-third);
@@ -254,7 +269,7 @@ text-decoration: underline;
 }
 
 .title-list{
-
+    gap: 30px;
     display: flex;
     flex-wrap: nowrap;
     text-decoration-line: none;
@@ -265,8 +280,6 @@ text-decoration: underline;
 .title-list .item{
     width: 270px;
     align-items: center;
-
-    margin-left: 30px;
    
 }
 .images-item{
@@ -349,6 +362,8 @@ text-decoration: underline;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--color-back-team);
+    padding: 25px 100px;
 }
 
 .main-logo{
@@ -509,7 +524,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 .img-title{
     justify-content: center;
     display: flex;
-    flex-wrap: nowrap;
     gap: 30px;
     
    
