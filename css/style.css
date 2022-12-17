@@ -545,10 +545,12 @@ ul {
 .container-socials {
     display: inline-flex;
     justify-content: center;
-    list-style: none;
     text-align: center;
 }
-
+.adress-link:hover{
+     background-color: var(--color-button);
+   
+}
 
 .socials {
 
@@ -719,6 +721,7 @@ ul {
 
 
 }
+
 
 .link-adress {
     color: var(--color-background);
