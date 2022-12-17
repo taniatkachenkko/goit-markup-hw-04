@@ -517,35 +517,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 }
 
 
-.container-socials{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    text-align: center;
-}
-.socials{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    text-align: center;
-
-}
-.socials a {
-    position: absolute;
-    color: var(--color-back);
-    background-color: var(--color-background);
-    display: flex;
-    border-radius: .25rem;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.socials a::before {
-    content: "";
-    position: absolute;
-    background: transparent no-repeat center center;
-    background-size: 100% 100%;
-}
 
 .team-names{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
