@@ -694,6 +694,16 @@ ul {
     color: var(--color-background);
 }
 
+.footer-block{
+    gap: 70px;
+    display: flex;
+}
+
+
+.footer-box{
+    display: flex;
+    gap: 70px;
+}
 
 .link-logo {
     text-transform: capitalize;
@@ -734,6 +744,33 @@ ul {
     background-repeat: no-repeat;
 }
 
+.socials-icons-footer li{
+    background-color: var(--color-section);
+
+}
+
+.socials-item {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+}
+
+.socials-item a {
+    color: var(--color-background);
+    background-color: var(--color-section);
+    display: block;
+    border-radius: 0.25rem;
+}
+
+.socials-item a::before {
+    content: "";
+    position: absolute;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
 .adress-icons {
     fill: var(--color-background);
     color: var(--color-back);
