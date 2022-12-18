@@ -549,18 +549,32 @@ ul {
     text-align: center;
 }
 
-.socials-icons{
+.socials-icons li{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    background-size: 20px;
+}
+
+
+.container-socials-footer{
     display: inline-flex;
     justify-content: center;
     text-align: center;
 }
+.socials-icons-footer li{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
 .adress-link:hover{
-     background-color: var(--color-button);
+    background-color: var(--color-button);
    
 }
 
 .socials {
-
     display: flex;
     justify-content: center;
     list-style: none;
