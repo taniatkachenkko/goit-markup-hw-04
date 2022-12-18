@@ -334,7 +334,8 @@ ul {
 
 .clients-item {
     cursor: pointer;
-
+    gap: 30px;
+    border: var(--color-back);
 }
 
 .clients-item:hover {
@@ -547,6 +548,12 @@ ul {
     justify-content: center;
     text-align: center;
 }
+
+.socials-icons{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}
 .adress-link:hover{
      background-color: var(--color-button);
    
@@ -668,6 +675,7 @@ ul {
 
 
 .footer {
+    padding: 60px 0;
     background-color: var(--color-section);
     color: var(--color-background);
 }
