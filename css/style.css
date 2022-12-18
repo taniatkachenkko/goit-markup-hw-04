@@ -573,6 +573,11 @@ ul {
     background-color: var(--color-button);
    
 }
+.adress-link{
+    border-radius: 50%;
+}
+
+  
 
 .socials {
     display: flex;
@@ -581,6 +586,7 @@ ul {
     margin-top: 0.25rem;
     margin-bottom: 1rem;
     padding-left: 0;
+    
 }
 
 .socials a {
@@ -772,13 +778,31 @@ ul {
     background-size: 100% 100%;
 }
 .adress-icons {
-    fill: var(--color-background);
-    color: var(--color-back);
+    fill: var(--color-back);
+    background-color: var(--color-background);
     border: none;
     fill-opacity: 60%;
+    border-radius: 50%;
+    text-decoration-line: none;
+    background-size: contain;
+    
+}
 
+.adress-icons:hover {
+    cursor: pointer;
+    fill: var(--color-third);
+    text-decoration-line: none;
+}
 
+.adress-icons:focus {
+    cursor: pointer;
+    fill: var(--color-third);
+    text-decoration-line: none;
+}
 
+.container-socials-footer{
+    
+    gap: 70px;
 }
 
 
