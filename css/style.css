@@ -69,25 +69,7 @@ body {
 
 }
 
-.head-link {
-    color: var(--color-third);
-    text-decoration: none;
-    text-decoration-line: none;
-    list-style-type: none;
-    font-weight: 500;
-    padding: 30px 0;
-    display: inline-block;
-}
 
-.head-link:hover {
-    text-decoration: underline;
-
-}
-
-.head-link:focus {
-    text-decoration: underline;
-
-}
 
 .header-link {
     color: var(--color-primary);
@@ -102,6 +84,7 @@ body {
 
 .header-link:hover {
     text-decoration: underline;
+    color: var(--color-third);
 }
 
 .header-link:focus {
@@ -317,7 +300,7 @@ ul {
 
 .section details-section .item::before {
     content: '';
-    display: block;
+    display: inline-block;
     margin-bottom: 30px;
     background-repeat: no-repeat;
     background-color: var(--color-back-team);
@@ -327,7 +310,7 @@ ul {
 
 .clients-item .clients-icons::before {
     content: '';
-    display: block;
+    display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -347,10 +330,18 @@ ul {
 }
 
 .clients-icons {
-
+    fill: var(--color-back);
+    border-color: var(--color-back);
+    border-radius: 4px;
     justify-content: center;
     color: var(--color-back);
     gap: 30px;
+    border: var(--color-back);
+}
+
+.clients-icons:hover{
+fill: var(--color-third);
+
 }
 
 
@@ -563,18 +554,25 @@ ul {
     justify-content: center;
     text-align: center;
 }
-.socials-icons-footer li{
-    display: inline-flex;
+.socials-icons-footer {
+    display: flex;
     justify-content: center;
     text-align: center;
     gap: 10px;
 }
-.adress-link:hover{
-    background-color: var(--color-button);
-   
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
 }
+
+   
 .adress-link{
     border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
 }
 
   
@@ -688,12 +686,22 @@ ul {
 .clients-item {
     background-position: center;
     background-repeat: no-repeat;
-    display: inline;
+    display: flex;
     justify-content: center;
     text-align: center;
+    gap: 30px;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    
+  
 }
 
 
+.clients-container{
+    display: flex;
+    justify-content: center;
+}
 .footer {
     padding: 60px 0;
     background-color: var(--color-section);
@@ -707,7 +715,7 @@ ul {
 
 
 .footer-box{
-    display: flex;
+
     gap: 70px;
 }
 
@@ -739,7 +747,7 @@ ul {
 
 
 }
-
+ 
 .list-icons {
     display: inline;
     background-size: 66px;
@@ -785,6 +793,7 @@ ul {
     border-radius: 50%;
     text-decoration-line: none;
     background-size: contain;
+    
     
 }
 
