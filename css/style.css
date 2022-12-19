@@ -547,11 +547,7 @@ fill: var(--color-third);
     gap: 10px;
 }
 
-.footer-social{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+
 
    
 .adress-link{
@@ -736,16 +732,18 @@ fill: var(--color-third);
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-top: 0.25rem;
-    margin-bottom: 1rem;
+    margin-top: auto;
+    margin-bottom: auto ;
     padding-left: 0;
+    
+    text-align: center;
 }
 
 .socials-item a {
     color: var(--color-background);
     background-color: var(--color-section);
     display: block;
-    border-radius: 0.25rem;
+    
 }
 
 .socials-item a::before {
@@ -787,6 +785,7 @@ fill: var(--color-third);
     margin: 0 auto;
     gap: 70px;  
     text-align: center;
+    margin-bottom: 100px;
 }
 
 
