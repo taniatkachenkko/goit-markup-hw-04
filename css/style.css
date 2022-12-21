@@ -312,8 +312,18 @@ ul {
 
 .clients-item {
     cursor: pointer;
-    gap: 30px;
-    border: var(--color-back);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 170px;
+    height: 92px;
+    left: 215px;
+    top: 2490px;
+    
+    border: 1px solid var(--color-back);
+    border-radius: 4px;
+    
 }
 
 .clients-item:hover {
@@ -325,6 +335,8 @@ ul {
 }
 
 .clients-icons {
+    
+
     fill: var(--color-back);
     border-color: var(--color-back);
     border-radius: 4px;
@@ -521,9 +533,24 @@ fill: var(--color-third);
 }
 
 .container-socials {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    
     text-align: center;
+    justify-content: center;
+
+    
+}
+
+
+.socials{
+    width: 44px;
+    gap: 10px;
+}
+.social-icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 .socials-icons li{
@@ -532,13 +559,21 @@ fill: var(--color-third);
     text-align: center;
     gap: 10px;
     background-size: 20px;
+    
 }
 
-
+.socials-item{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
 .container-socials-footer{
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     text-align: center;
+
+
 }
 .socials-icons-footer {
     display: flex;
@@ -554,6 +589,7 @@ fill: var(--color-third);
     border-radius: 50%;
     object-fit: contain;
     object-position: center;
+    
 }
 
   
@@ -565,6 +601,7 @@ fill: var(--color-third);
     margin-top: 0.25rem;
     margin-bottom: 1rem;
     padding-left: 0;
+    
     
 }
 
@@ -623,6 +660,8 @@ fill: var(--color-third);
 }
 
 .names {
+    display: block;
+    justify-content: center;
     padding: 30px 10px;
 }
 
@@ -670,7 +709,10 @@ fill: var(--color-third);
 
 .clients-container{
     display: flex;
+    text-align: center;
     justify-content: center;
+    gap: 30px;
+    
 }
 .footer {
     padding: 60px 0;
@@ -758,9 +800,12 @@ fill: var(--color-third);
     border: none;
     fill-opacity: 60%;
     border-radius: 50%;
+
     text-decoration-line: none;
-    background-size: contain;
+    background-size: 20px;
     background-position: center;
+    
+   
 }
 
 .adress-icons:hover {
@@ -825,4 +870,12 @@ fill: var(--color-third);
 .link-box {
     text-decoration-line: none;
     list-style-type: none;
+}
+
+.title-footer{
+    line-height: 1.17;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
