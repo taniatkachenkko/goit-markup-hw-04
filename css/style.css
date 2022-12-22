@@ -212,8 +212,7 @@ ul {
 
 .hero-section {
     padding: 200px 0;
-    background-image: linear-gradient(  rgba(47, 48, 58, 0.4)) url(../images/bcg/img.bcg.jpg)
-    
+    background-image: linear-gradient(  rgba(47, 48, 58, 0.4)) url(../images/bcg/img.bcg.jpg);
     max-width: 1600px;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -292,12 +291,7 @@ ul {
 
 }
 
-.clients-item .clients-icons::before {
-    content: '';
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 
 .clients-item {
     cursor: pointer;
@@ -317,12 +311,13 @@ ul {
 
 .clients-item:hover {
     color: var(--color-third);
+    border: 1px solid var(--color-third) ;
 }
 
-.clients-item:focus {
-    color: var(--color-third);
-}
 
+.clients-item:hover{
+    fill: var(--color-third);
+}
 .clients-icons {
     
 
@@ -333,11 +328,6 @@ ul {
     color: var(--color-back);
     gap: 30px;
     border: var(--color-back);
-}
-
-.clients-icons:hover{
-fill: var(--color-third);
-
 }
 
 
@@ -783,24 +773,27 @@ fill: var(--color-third);
     color: var(--color-background);
     background-color: var(--color-section);
     display: block;
-    
-}
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    }
 
-.socials-item a::before {
-    content: "";
-    position: absolute;
-    background: transparent no-repeat center center;
-    background-size: 100% 100%;
-}
+
+
 .adress-icons {
     fill: var(--color-back);
+
 }
 
 
 
 
 
-.adress-icons:focus {
+.adress-icons:focus,{
     cursor: pointer;
     fill: var(--color-third);
     text-decoration-line: none;
