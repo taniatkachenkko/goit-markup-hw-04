@@ -772,7 +772,6 @@ ul {
 .socials-item a {
     color: var(--color-background);
     background-color: var(--color-section);
-    display: block;
     position: relative;
     border-radius: 50%;
     display: flex;
@@ -788,10 +787,6 @@ ul {
     fill: var(--color-back);
 
 }
-
-
-
-
 
 .adress-icons:focus,{
     cursor: pointer;
