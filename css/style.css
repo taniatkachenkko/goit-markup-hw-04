@@ -212,9 +212,8 @@ ul {
 
 .hero-section {
     padding: 200px 0;
-    background-image: linear-gradient( 
-        rgba(47, 48, 58, 0.4)
-    ) url(../images/bcg/img.bcg.jpg);
+    background-image: linear-gradient(  rgba(47, 48, 58, 0.4)) url(../images/bcg/img.bcg.jpg)
+    
     max-width: 1600px;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -576,7 +575,6 @@ fill: var(--color-third);
 
    
 .adress-link{
-    border-radius: 50%;
     object-fit: contain;
     object-position: center;
     
@@ -598,15 +596,21 @@ fill: var(--color-third);
 .socials a {
     position: relative;
     color: var(--color-back);
-    background-color: var(--color-background);
-    display: flex;
     border-radius: 50%;
+    display: flex;
+
     width: 44px;
     height: 44px;
     align-items: center;
     justify-content: center;
 }
 
+
+.adress-link:hover,
+.adress-link:focus{
+    background-color: var(--color-third);
+
+}
 .team-names {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -783,22 +787,11 @@ fill: var(--color-third);
 }
 .adress-icons {
     fill: var(--color-back);
-    background-color: transparent;
-    border: none;
-    fill-opacity: 60%;
-    border-radius: 50%;
-    text-decoration-line: none;
-    background-size: 20px;
-    background-position: center;
-    
-   
 }
 
-.adress-icons:hover {
-    cursor: pointer;
-    fill: var(--color-third);
-    text-decoration-line: none;
-}
+
+
+
 
 .adress-icons:focus {
     cursor: pointer;
@@ -807,8 +800,16 @@ fill: var(--color-third);
 }
 
 
+.socials a:hover,
+.socials a:focus {
+    background-color: var(--color-third);
 
+}
 
+.socials a:hover svg,
+.socials a:focus svg {
+    fill: var(--color-background);
+}
 .container-socials-footer{
     padding-bottom: 100px;
     padding-top: 100px;
