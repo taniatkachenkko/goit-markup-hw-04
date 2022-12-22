@@ -315,7 +315,11 @@ ul {
 }
 
 
-.clients-item:hover{
+.clients-item:hover svg{
+    fill: var(--color-third);
+}
+
+.clients-icons:hover{
     fill: var(--color-third);
 }
 .clients-icons {
