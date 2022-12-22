@@ -575,8 +575,15 @@ fill: var(--color-third);
 
    
 .adress-link{
-    object-fit: contain;
-    object-position: center;
+    position: relative;
+    color: var(--color-back);
+    border-radius: 50%;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+ 
     
 }
 
