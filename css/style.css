@@ -297,8 +297,6 @@ ul {
     cursor: pointer;
     padding-top: 15px;
     padding-bottom: 20px;
-    padding-left: auto;
-    padding-right: auto;
     width: 170px;
     height: 92px;
     left: 215px;
@@ -791,7 +789,7 @@ ul {
 
 }
 
-.adress-icons:focus,{
+.adress-icons:focus{
     cursor: pointer;
     fill: var(--color-third);
     text-decoration-line: none;
